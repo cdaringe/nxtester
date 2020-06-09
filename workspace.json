@@ -114,6 +114,24 @@
           }
         }
       }
+    },
+    "lib-with-custom-build": {
+      "root": "libs/lib-with-custom-build",
+      "sourceRoot": "libs/lib-with-custom-build/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "sh libs/lib-with-custom-build/build.sh"
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {

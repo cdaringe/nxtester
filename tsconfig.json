@@ -16,7 +16,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nxtester/ui": ["libs/ui/src/index.ts"]
+      "@nxtester/ui": ["libs/ui/src/index.ts"],
+      "@nxtester/lib-with-custom-build": [
+        "libs/lib-with-custom-build/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
