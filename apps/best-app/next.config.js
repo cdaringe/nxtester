@@ -1,3 +1,4 @@
+debugger // eslint-disable-line
 const withCSS = require('@zeit/next-css');
 module.exports = withCSS({
   // Set this to true if you use CSS modules.
