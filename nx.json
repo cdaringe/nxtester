@@ -25,6 +25,9 @@
     "best-app-e2e": {
       "tags": [],
       "implicitDependencies": ["best-app"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
